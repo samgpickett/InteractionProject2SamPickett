@@ -1,0 +1,123 @@
+    /*nav bar*/
+        ul {
+        font-family: schoolbook, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11pt;
+        list-style: none;
+        width: 2080px;
+        height: 30px; 
+        padding-top: 5px;
+        position:fixed;
+        z-index: 100;
+        background-color: rgba(200, 165, 49, .6);
+        bottom: 0px;
+        align-content: center;
+        
+    }
+    nav li {
+        
+        display: inline-block; 
+        margin-left: 120px;
+        letter-spacing: 2px;
+        opacity: 100%;
+        
+    }
+    a {
+      text-decoration: none;
+        color: maroon;
+        opacity: 100%;
+           
+    }
+    a:hover {
+        font-size: 14pt;
+    }
+    
+    /*content*/ 
+      h1 {
+            margin-left:120vw;
+            font-family: montserat, sans-serif;
+            font-style: normal;
+            font-weight: 900;
+             color: #5987A1;
+            margin-left: 15vw;
+            font-size: 5vw;
+            position: absolute;
+            margin-top: 35vh;
+            z-index: 8;
+            
+            }
+    .plastic {
+                display: grid;
+                grid-template-columns: 80px 100px 70px 120px 100px;
+                align-items: baseline;
+                align-items: right;
+                margin-left: 50px;
+                z-index: 4;
+                position:absolute;
+                margin-top:40px;
+                transition: 1s;
+                opacity: 100%
+            } 
+    .plasticbag {
+                z-index: -1;
+                margin-top:80px;
+                margin-left:
+                opacity: 100%;
+                position:absolute;
+                transition: 20s;
+        
+        }
+    .plasticbag:hover{
+        transform: skewX(90deg);
+        transform: rotate(40deg);
+    }
+    
+    .baby {
+        position: fixed;
+       margin-left: 260px;
+        z-index:0;
+        width:300vw;
+        opacity: 60%;
+        
+    }
+    p{
+            font-family: montserat, sans-serif;
+            font-style: normal;
+            font-weight: 200;
+            color: dimgrey;
+            width: 35vw;
+            margin-left: 50vw;
+            padding-top: 60vh;
+            position: absolute;
+            z-index: 1;
+            font-size: 16px;
+            line-height: 130%
+            
+            }
+      .box {
+        margin-left: 240px;
+        z-index: 2;
+        width:300px;
+        height: 410px;
+        margin-top: 10px;
+        background-color: rgba(200, 165, 49, .3);
+        position: fixed;
+        transition:1s;
+    }  
+    .box:hover {
+        transform: scale(340px);
+    }
+     audio {
+        opacity: 100%;
+        position: fixed;
+        z-index: 100;
+        margin-top: 470px;
+        margin-left: 18vw;
+
+}
+spread {
+    color: black;
+}
+
+    

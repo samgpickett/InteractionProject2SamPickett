@@ -1,0 +1,115 @@
+.plasticbag {
+                z-index: -1;
+                margin-top:-700px;
+                margin-left:
+                opacity: 100%;
+                position:absolute;
+                transition: 100s;
+                transform: rotate(180deg)
+        
+        }  
+h2 {
+            margin-left:120vw;
+            font-family: montserrat, sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            color: #5987A1;
+            margin-left: 22vw;
+            margin-right: 22vw;
+            font-size: 4vw;
+            position: absolute;
+            margin-top:20px;
+            z-index: 40;
+            }
+    .issue {
+            margin-left:120vw;
+            font-family: montserrat, sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            color: #5987A1;
+            margin-left: 22vw;
+            margin-right: 22vw;
+            font-size: 4vw;
+            position: absolute;
+            margin-top:330px;
+            z-index: 40;
+    }
+    .familyphotos {
+        position: absolute;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto auto auto;
+        z-index: 4;
+        margin-top:150px;
+        left:30%;
+        right:30%
+    }
+    1970:hover {
+        transform: scale(110%)
+    }
+    .couch {
+        margin-left: 33%;
+        margin-right: 33%;
+        position: absolute;
+        margin-top:450px;
+    }
+    .couchbackground {
+        margin-left: 32%;
+        margin-right: 35%;
+        position: absolute;
+        margin-top:440px;
+        
+    }
+        ul {
+        position: fixed;
+        margin-top: 10px;
+    }
+    audio {
+        opacity: 100%;
+        position: fixed;
+        z-index: 100;
+        margin-top: 500px;
+        margin-left: 18vw;
+    }
+
+                      /*nav bar*/
+        ul {
+        font-family: schoolbook, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11pt;
+        list-style: none;
+        width: 2080px;
+        height: 30px; 
+        padding-top: 5px;
+        position:fixed;
+        z-index: 100;
+        background-color: rgba(200, 165, 49, .6);
+        bottom: 0px;
+        align-content: center;
+        
+    }
+    nav li {
+        
+        display: inline-block; 
+        margin-left: 120px;
+        letter-spacing: 2px;
+        opacity: 100%;
+        
+    }
+    a {
+      text-decoration: none;
+        color: maroon;
+        opacity: 100%;
+           
+    }
+    a:hover {
+        font-size: 14pt;
+        transform: scale(110%);
+    }
+spread {
+    color: black;
+}
+    img:hover {
+        transform: scale(200%);
+    }

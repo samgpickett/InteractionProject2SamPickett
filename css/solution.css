@@ -1,0 +1,98 @@
+
+           /*nav bar*/
+        ul {
+        font-family: schoolbook, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11pt;
+        list-style: none;
+        width: 2080px;
+        height: 30px; 
+        padding-top: 5px;
+        position:fixed;
+        z-index: 100;
+        background-color: rgba(200, 165, 49, .6);
+        bottom: 0;
+        
+        
+    }
+    nav li {
+        
+        display: inline-block; 
+        margin-left: 120px;
+        letter-spacing: 2px;
+        opacity: 100%;
+        
+    }
+    a {
+      text-decoration: none;
+        color: maroon;
+        opacity: 100%;
+           
+    }
+    a:hover {
+        font-size: 14pt;
+    }
+        
+        body {
+            background-color: darkgoldenrod;
+        }
+         h1 {
+            font-family: montserat, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            color: white;
+            margin-left: 600px;
+            font-size: 60pt;
+            position: absolute;
+           padding-top: 80px;
+             z-index: 1;
+             width:800px
+                 
+             }
+        .background {
+            margin-left: -10px;
+            margin-top:-10px;
+            position:absolute;
+            z-index: -1;
+        }
+        p{
+            font-family: montserat, sans-serif;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 14pt;
+            color: white;
+            width: 30vw;
+            margin-left: 70px;
+            margin-right: 70px;
+            padding-top: 140px;
+            text-shadow: 2px 2px 4px brown;
+            position: absolute;
+            }
+        .plastic {
+            z-index: 2;
+            opacity: 40%; 
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition:10s;
+            margin-top: -500px;    
+        }
+        .plastic:hover {
+            transform: rotateX(-30deg);
+            transform: 
+        }
+       @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+        
+        
+spread {
+    color: black;
+}
