@@ -3,7 +3,7 @@
                 margin-top:-700px;
                 margin-left:
                 opacity: 100%;
-                position:absolute;
+                position:fixed;
                 transition: 100s;
                 transform: rotate(180deg)
         
