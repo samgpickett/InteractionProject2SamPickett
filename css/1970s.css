@@ -7,10 +7,10 @@
         position: fixed;
         z-index: 100;
         margin-top: 500px;
-        margin-left: 18vw;
+        margin-left: 210px;
     }
 
-                      /*nav bar*/
+    /*nav bar*/
         ul {
         font-family: schoolbook, serif;
         font-style: normal;
@@ -43,7 +43,9 @@
     }
     a:hover {
         font-size: 14pt;
+        transition: .5s;
     }
+    /*content*/ 
       h1 {
             margin-left:120vw;
             font-family: montserat, sans-serif;
@@ -53,7 +55,7 @@
             margin-left: 15vw;
             font-size: 5vw;
             position: absolute;
-            margin-top: 35vh;
+            margin-top: 39vh;
             z-index: 40;
             
             }
@@ -66,7 +68,6 @@
                 z-index: 4;
                 position:absolute;
                 margin-top:40px;
-                transition: 1s;
                 opacity: 100%
             } 
     .plasticbag {
@@ -85,7 +86,7 @@
     
     .baby {
         position: fixed;
-        margin-left: 15vw;
+        margin-left: 170px;
         z-index:-10;
         width:300vw;
         
@@ -94,19 +95,19 @@
         
     }
     p{
-            font-family: montserat, sans-serif;
+            font-family: montserat;
             font-style: normal;
             font-weight: 200;
-            color: #5987A1;;
+            color: grey;
             width: 35vw;
             margin-left: 50vw;
-            padding-top: 60vh;
+            padding-top: 470px;
             position: absolute;
             z-index: 1;
             
             }
     .box {
-        margin-left: 22vw;
+        margin-left: 170px;
         z-index:40;
         width:300px;
         height: 410px;
@@ -117,3 +118,9 @@
 spread {
     color: black;
 }
+.callout {
+        
+        color:grey;
+        font-weight: 500;
+        font-size: 18pt;
+    }

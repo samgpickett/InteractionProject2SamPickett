@@ -1,5 +1,5 @@
     /*nav bar*/
-        ul {
+     ul {
         font-family: schoolbook, serif;
         font-style: normal;
         font-weight: 400;
@@ -16,12 +16,10 @@
         
     }
     nav li {
-        
         display: inline-block; 
         margin-left: 120px;
         letter-spacing: 2px;
-        opacity: 100%;
-        
+        opacity: 100%; 
     }
     a {
       text-decoration: none;
@@ -31,11 +29,11 @@
     }
     a:hover {
         font-size: 14pt;
+       transition: .5s;
     } 
-spread {
-    color:black;
-}
-h1 {
+    /*content*/ 
+
+    h1 {
             margin-left:120vw;
             font-family: montserat, sans-serif;
             font-style: normal;
@@ -57,7 +55,6 @@ h1 {
                 z-index: 4;
                 position:absolute;
                 margin-top:70px;
-                transition: 1s;
                 opacity: 80%
             } 
     .plasticbag {
@@ -67,9 +64,10 @@ h1 {
                 opacity: 100%;
                 position:absolute;
                 transition: 30s;
-                transform: rotate(90deg)
-        
         }
+    .plasticbag:hover {
+        transform: skewX(30);
+}
     
     .baby {
         position: fixed;
@@ -82,16 +80,15 @@ h1 {
         
     }
     p{
-            font-family: montserat, sans-serif;
+            font-family: montserat;
             font-style: normal;
             font-weight: 200;
             color: grey;
             width: 35vw;
             margin-left: 50vw;
-            padding-top: 70vh;
+            padding-top: 60vh;
             position: absolute;
             z-index: 1;
-            
             }
     .plasticbag:hover{
         transform: skewX(40deg);
@@ -105,7 +102,11 @@ h1 {
         background-color: rgba(200, 165, 49, .3);
         position: fixed;
     }
-spread {
-    color: black;
-}
-     
+    spread {
+        color: black;
+    }
+      .callout {
+        color: gray;
+        font-weight: 500;
+        font-size: 18pt;
+    }

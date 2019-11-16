@@ -1,6 +1,6 @@
 
              /*nav bar*/
-        ul {
+    ul {
         font-family: schoolbook, serif;
         font-style: normal;
         font-weight: 400;
@@ -14,7 +14,6 @@
         background-color: rgba(200, 165, 49, .6);
         bottom: 0;
         align-content: center;
-        
     }
     nav li {
         
@@ -32,9 +31,14 @@
     }
     a:hover {
         font-size: 14pt;
+        transition: .5s;
     }
+    spread {
+        color: black;
+    }
+    /*content*/ 
 
-            h2 {
+        h2 {
             font-family: montserat, sans-serif;
             font-style: normal;
             font-weight: 700;
@@ -44,8 +48,8 @@
             margin-left: 200px;
             margin-top: 5px;
             z-index: 1;
-            }
-             h1 {
+         }
+        h1 {
             margin-left:120vw;
             font-family: montserat, sans-serif;
             font-style: normal;
@@ -54,13 +58,13 @@
             margin-left: 800px;
             font-size: 60pt;
             position: absolute;
-            margin-top: 35vh;
-         z-index: 1;
-            }
-            p{
-            font-family: montserat, sans-serif;
+            margin-top: 280px;
+            z-index: 1;
+         }
+        p{
+            font-family: montserat;
             font-style: normal;
-            font-weight: 200;
+            font-weight: 100;
             color: lightgray;
             width: 26vw;
             margin-left: 200px;
@@ -69,8 +73,7 @@
             position: absolute;
             z-index: 1;
             
-            }
-            }
+        }
             .breadbagharshlighting {
                 transform: rotate(180deg);
                 background-image:url(images/breadbagharshlighting.jpg) 
@@ -84,7 +87,7 @@
                 z-index: 0;
                 opacity: 100%;
                 
-            }
+        }
             .plastic {
                 display: grid;
                 grid-template-columns: auto auto auto auto auto auto auto auto;
@@ -105,12 +108,15 @@
                 margin-top: -2000px;
                 opacity: 30%;
                 position:fixed;
-             transition: 15s;
+                transition: 15s;
         }
         .plasticwrap:hover {
             transform: rotateZ(30deg);
             transform: skewY(20deg);   
         }
-spread {
-    color: black;
-}
+
+        .callout {
+            color:white;
+            font-weight: 500;
+            font-size: 18pt;
+        }
