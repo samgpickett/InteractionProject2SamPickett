@@ -10,6 +10,7 @@
      .plasticbag:hover {
          transition: 30s;
         transform:rotate(60deg);
+
         
     }
 /*its a multigenerational*/
@@ -124,6 +125,7 @@
     }
     a:hover {
         font-size: 14pt;
+
         transition: .5s;
     }
     spread {
@@ -134,3 +136,4 @@
         font-size: 18pt;
     }
    
+
